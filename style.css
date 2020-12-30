@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box; 
+ }
+
+
+.nome{
+ font-family: "Roboto", sans-serif;
+ font-weight: 500;
+ font-size: 3rem;
+ color: aliceblue;
+ border: 3px solid aliceblue;
+ padding: 2rem 4rem;
+}
+
+.gradient{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ width: 100vw;
+ background: linear-gradient(45deg, #222831, #393e46, #00adb5, #eeeeee);
+ background-size: 300%, 300%;
+ animation: colors 15s ease infinite;
+
+}
+
+.redessociais{
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+ font-size: 1rem;
+ color: rgb(26, 27, 27);
+ text-align: center;
+ padding: 2rem 4rem;
+ position: center;
+}
+
+.text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: aliceblue;
+    text-align: center;
+    padding: 2rem 4rem;
+    position: center;
+   }
+
+   .rodape {
+    grid-area: f / f / f / f;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+@keyframes colors {
+0% {
+ background-position: 0% 50%;
+}
+50% {
+ background-position: 100% 50%;
+}
+100% {
+ background-position: 0% 50%;
+}
+}
+
+@media (max-width: 600px) {
+.nome {
+ font-size: 1.5rem;
+ padding: 1rem 2rem;
+}
+}
