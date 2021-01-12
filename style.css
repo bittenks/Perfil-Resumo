@@ -28,6 +28,7 @@
  background: linear-gradient(45deg, #222831, #393e46, #00adb5, #eeeeee);
  background-size: 300%, 300%;
  animation: colors 15s ease infinite;
+ background-repeat: no-repeat;
 
 }
 
